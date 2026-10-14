@@ -1,0 +1,148 @@
+id: chuckles
+title: "Spotlight, 2 класс — Module 1, 2b: Where's Chuckles?"
+emoji: "🐵"
+sections:
+  - type: dialog
+    title: "Упр. 1 — Диалог 1 (послушай и повтори)"
+    lines:
+      - speaker: Lulu
+        voice: lulu
+        en: "Chuckles, come here!"
+        ru: "Чаклз, иди сюда!"
+        translit: "Чаклз, кам хиа!"
+      - speaker: Larry
+        voice: larry
+        en: "Oh no! He's in the house!"
+        ru: "О нет! Он в доме!"
+        translit: "Оу ноу! Хиз ин зэ хаус!"
+      - speaker: Lulu
+        voice: lulu
+        en: "Where's Mummy?"
+        ru: "Где мама?"
+        translit: "Уэаз мамми?"
+      - speaker: Larry
+        voice: larry
+        en: "Look! Mummy's in the kitchen."
+        ru: "Смотри! Мама на кухне."
+        translit: "Лук! Мамми з ин зэ китчен."
+  - type: dialog
+    title: "Упр. 1 — Диалог 2 (послушай и повтори)"
+    lines:
+      - speaker: Larry
+        voice: larry
+        en: "Where's Daddy?"
+        ru: "Где папа?"
+        translit: "Уэаз дэдди?"
+      - speaker: Lulu
+        voice: lulu
+        en: "He's in the bedroom."
+        ru: "Он в спальне."
+        translit: "Хиз ин зэ бэдрум."
+      - speaker: Larry
+        voice: larry
+        en: "But where's Chuckles?"
+        ru: "Но где Чаклз?"
+        translit: "Бат уэаз Чаклз?"
+      - speaker: Lulu
+        voice: lulu
+        en: "Quick! Let's go!"
+        ru: "Быстрее! Пошли!"
+        translit: "Квик! Летс гоу!"
+  - type: words
+    title: "Новые слова (по картинкам учебника)"
+    lines:
+      - emoji: "🏠"
+        en: "house"
+        ru: "дом"
+        translit: "хаус"
+      - emoji: "🌳"
+        en: "tree"
+        ru: "дерево"
+        translit: "три"
+      - emoji: "🌳🏠"
+        en: "tree house"
+        ru: "домик на дереве"
+        translit: "три хаус"
+      - emoji: "🍳"
+        en: "kitchen"
+        ru: "кухня"
+        translit: "китчен"
+      - emoji: "🛏️"
+        en: "bedroom"
+        ru: "спальня"
+        translit: "бэдрум"
+      - emoji: "🛁"
+        en: "bathroom"
+        ru: "ванная"
+        translit: "бэсрум"
+      - emoji: "🐭"
+        en: "mouse"
+        ru: "мышка"
+        translit: "маус"
+  - type: song
+    title: "Упр. 3 — Песенка (слушай, повторяй, показывай движения)"
+    note: "Здесь слушаем и повторяем строчки. Сам мотив берём из аудио к учебнику."
+    lines:
+      - en: "Chuckles is in the house,"
+        ru: "Чаклз в доме,"
+        translit: "Чаклз из ин зэ хаус,"
+      - en: "Chuckles is in the tree,"
+        ru: "Чаклз на дереве,"
+        translit: "Чаклз из ин зэ три,"
+      - en: "Chuckles is in the tree house,"
+        ru: "Чаклз в домике на дереве,"
+        translit: "Чаклз из ин зэ три хаус,"
+      - en: "Looking at you and me!"
+        ru: "Смотрит на тебя и на меня!"
+        translit: "Лукинг эт ю энд ми!"
+      - en: "Chuckles is in the kitchen,"
+        ru: "Чаклз на кухне,"
+        translit: "Чаклз из ин зэ китчен,"
+      - en: "Chuckles is in the house,"
+        ru: "Чаклз в доме,"
+        translit: "Чаклз из ин зэ хаус,"
+      - en: "Chuckles is in the bathroom,"
+        ru: "Чаклз в ванной,"
+        translit: "Чаклз из ин зэ бэсрум,"
+      - en: "Looking at a mouse!"
+        ru: "Смотрит на мышку!"
+        translit: "Лукинг эт э маус!"
+  - type: quiz
+    title: "Упр. 2 — Выбери правильный ответ"
+    questions:
+      - q: "Where's Daddy?"
+        q_ru: "Где папа?"
+        options:
+          - text: "️ He's in the bedroom."
+            tts: "He's in the bedroom."
+            correct: true
+          - text: "🍳 He's in the kitchen."
+            tts: "He's in the kitchen."
+            correct: false
+      - q: "Where's Mummy?"
+        q_ru: "Где мама?"
+        options:
+          - text: "🛁 She's in the bathroom."
+            tts: "She's in the bathroom."
+            correct: false
+          - text: "🍳 She's in the kitchen."
+            tts: "She's in the kitchen."
+            correct: true
+      - q: "Where's Chuckles at the end of the song?"
+        q_ru: "Где Чаклз в конце песенки?"
+        options:
+          - text: "🌳 In the tree."
+            tts: "He is in the tree."
+            correct: false
+          - text: "🛁 In the bathroom."
+            tts: "He is in the bathroom."
+            correct: true
+      - q: "Who is looking at a mouse?"
+        q_ru: "Кто смотрит на мышку?"
+        options:
+          - text: "🐵 Chuckles."
+            tts: "Chuckles is looking at a mouse."
+            correct: true
+          - text: "👩 Mummy."
+            tts: "Mummy is looking at a mouse."
+            correct: false
